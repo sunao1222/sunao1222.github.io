@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio showcasing my creative work and web application development skills.">
+    <title>My Portfolio | Creative Web Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="background-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-interactive"></div>
+    </div>
+    <div class="bg-grid"></div>
+
+    <header class="glass-header">
+        <nav>
+            <div class="logo">Port<span>folio</span>.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section fade-in">
+            <div class="hero-content">
+                <h1 class="glitch-text">Creative Developer</h1>
+                <p>Building aesthetic, dynamic, and extremely fast web experiences.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-orb"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section hidden">
+            <div class="section-container">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text glass-panel">
+                        <p>I am a passionate software engineer specializing in beautiful, interactive user interfaces and robust web applications. My goal is to combine aesthetics with seamless user experiences to deliver products that amaze.</p>
+                        <ul class="skills-list">
+                            <li>JavaScript / TypeScript</li>
+                            <li>HTML5 / CSS3</li>
+                            <li>Nix & DevOps</li>
+                            <li>UX/UI Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section hidden">
+            <div class="section-container">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card glass-panel">
+                        <div class="project-img placeholder-gradient-1"></div>
+                        <div class="project-info">
+                            <h3>Project Alpha</h3>
+                            <p>A next-gen web app focusing on real-time data visualization with sleek dashboards.</p>
+                        </div>
+                    </div>
+                    <div class="project-card glass-panel">
+                        <div class="project-img placeholder-gradient-2"></div>
+                        <div class="project-info">
+                            <h3>Project Beta</h3>
+                            <p>An e-commerce platform pushing the boundaries of web animations and user engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section hidden">
+            <div class="section-container">
+                <h2>Let's Connect</h2>
+                <div class="contact-box glass-panel">
+                    <p>Interested in working together or just want to say hi? Drop me a message.</p>
+                    <a href="mailto:hello@example.com" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Portfolio. Crafted with passion.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

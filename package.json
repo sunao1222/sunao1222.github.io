@@ -1,0 +1,9 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio website frontend check",
+  "scripts": {
+    "start": "pnpm dlx live-server"
+  }
+}
